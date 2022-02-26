@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-const int STUDENTS=10;
+const int STUDENTS=3;
 const int SUBJECT=3;
 struct score
 {
