@@ -12,12 +12,11 @@ private:
     float sum_local;
     float get_sum()
     {
-
         for (int i = 0; i < 5; i++)
         {
-            sum_local += marks[i];
+            sum += marks[i];
         }
-        return sum_local;
+        return sum;
     }
 
 public:
@@ -56,6 +55,7 @@ public:
     void get_average()
     {
         sum = get_sum();
+        cout<<"sum is :"<<sum;
         average = sum / 5;
         cout << "Average of marks is : ";
         cout << average;

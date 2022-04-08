@@ -39,6 +39,8 @@ int main()
         {
         case 1:
             marks();
+            system("pause");
+
             break;
         case 2:
             largest();
